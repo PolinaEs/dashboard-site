@@ -1,0 +1,9 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.headers-main {
+
+  font-size: 20px;
+  line-height: 26px;
+  color: $color-light;
+}

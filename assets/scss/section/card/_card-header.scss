@@ -1,0 +1,47 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.card-header {
+  display: grid;
+  grid-template-areas:
+    "ttl btn"
+    "dsc btn";
+  justify-content: space-between;
+  padding: 8px 8px;
+  width: 332px;
+
+
+  &__btn {
+    width: 32px;
+    height: 32px;
+    grid-area: btn;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 5px;
+  }
+
+  &__btn--img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+  }
+
+  &__title {
+    grid-area: ttl;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: $color-light;
+    padding-bottom: 4px;
+  }
+
+  &__description {
+    grid-area: dsc;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    color: $color-light;
+  }
+}

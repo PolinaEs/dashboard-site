@@ -1,0 +1,14 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.form {
+
+  &__btn--img {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+  }
+}

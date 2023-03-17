@@ -1,0 +1,10 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.headers {
+  display: flex;
+  margin-top: 43px;
+  margin-bottom: 18px;
+  align-items: center;
+  justify-content: flex-start;
+}

@@ -1,35 +1,44 @@
 @font-face {
-  font-family: 'TT Norms';
-  src: url('../fonts/TTNorms-Bold.eot');
-  src: local('TT Norms Bold'), local('TTNorms-Bold'),
-    url('../fonts/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/TTNorms-Bold.woff2') format('woff2'),
-    url('../fonts/TTNorms-Bold.woff') format('woff'),
-    url('../fonts/TTNorms-Bold.ttf') format('truetype');
-  font-weight: bold;
+  font-family: 'RedHatDisplayRegular';
+  src: url('fonts/RedHatDisplayRegular.eot');
+  src: url('fonts/RedHatDisplayRegular.eot') format('embedded-opentype'),
+    url('fonts/RedHatDisplayRegular.woff2') format('woff2'),
+    url('fonts/RedHatDisplayRegular.woff') format('woff'),
+    url('fonts/RedHatDisplayRegular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'TT Norms';
-  src: url('../fonts/TTNorms-Medium.eot');
-  src: local('TT Norms Medium'), local('TTNorms-Medium'),
-    url('../fonts/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/TTNorms-Medium.woff2') format('woff2'),
-    url('../fonts/TTNorms-Medium.woff') format('woff'),
-    url('../fonts/TTNorms-Medium.ttf') format('truetype');
+  font-family: 'RedHatDisplayMedium';
+  src: url('fonts/RedHatDisplayMedium.eot');
+  src: url('fonts/RedHatDisplayMedium.eot') format('embedded-opentype'),
+    url('fonts/RedHatDisplayMedium.woff2') format('woff2'),
+    url('fonts/RedHatDisplayMedium.woff') format('woff'),
+    url('fonts/RedHatDisplayMedium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
+
 @font-face {
-  font-family: 'TT Norms';
-  src: url('../fonts/TTNorms-Regular.eot');
-  src: local('TT Norms Regular'), local('TTNorms-Regular'),
-    url('../fonts/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/TTNorms-Regular.woff2') format('woff2'),
-    url('../fonts/TTNorms-Regular.woff') format('woff'),
-    url('../fonts/TTNorms-Regular.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'RedHatDisplaySemiBold';
+  src: url('fonts/RedHatDisplaySemiBold.eot');
+  src: url('fonts/RedHatDisplaySemiBold.eot') format('embedded-opentype'),
+    url('fonts/RedHatDisplaySemiBold.woff2') format('woff2'),
+    url('fonts/RedHatDisplaySemiBold.woff') format('woff'),
+    url('fonts/RedHatDisplaySemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RedHatDisplayBold';
+  src: url('fonts/RedHatDisplayBold.eot');
+  src: url('fonts/RedHatDisplayBold.eot') format('embedded-opentype'),
+    url('fonts/RedHatDisplayBold.woff2') format('woff2'),
+    url('fonts/RedHatDisplayBold.woff') format('woff'),
+    url('fonts/RedHatDisplayBold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }

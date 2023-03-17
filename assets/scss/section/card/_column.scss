@@ -1,0 +1,13 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.column {
+  background-color: transparent;
+  display: flex;
+  flex-grow: 1;
+  width: 332px;
+  height: 582px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
