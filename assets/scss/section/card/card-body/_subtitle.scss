@@ -6,13 +6,15 @@
   flex-direction: row;
   justify-content: space-between;
 
+  padding: 8px 8px;
+
   &__title {
 
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     margin: 0;
-    color: #FF4858;
+    color: $color-accent;
   }
 
   &__badge {

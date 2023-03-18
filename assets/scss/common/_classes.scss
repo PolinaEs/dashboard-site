@@ -79,3 +79,30 @@
   border-radius: 8px;
 
 }
+
+.sup {
+
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 12px;
+}
+
+.progress-bar {
+  width: 209px;
+  height: 2px;
+  overflow: hidden;
+  background: #5E5A5A;
+  border-radius: 2px;
+
+  &__complete {
+    width: 99.86px;
+    height: 2px;
+
+    background: #69F0A8;
+  }
+}
+
+.background {
+  background-color: rgba(255, 72, 88, 0.15);
+
+}
