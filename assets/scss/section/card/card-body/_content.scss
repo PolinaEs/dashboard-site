@@ -51,6 +51,42 @@
       color: $color-white;
     }
 
+    &--badge-sec {
+
+      width: 36px;
+      height: 18px;
+      margin-left: 50px;
+      margin-top: 6px;
+      background-color: rgba(172, 100, 11, 0.5);
+      border-radius: 4px;
+      padding: 2px 6px;
+
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 13px;
+
+      color: $color-white;
+
+    }
+
+    &--badge-third {
+
+      width: 36px;
+      height: 18px;
+      margin-left: 50px;
+      margin-top: 6px;
+      background-color: #0c0e12;
+      border-radius: 4px;
+      padding: 2px 6px;
+
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 13px;
+
+      color: #8a8181;
+
+    }
+
     &--progress-bar {}
   }
 }
