@@ -31,7 +31,8 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 19px;
-
+      max-width: 225px;
+      overflow: hidden;
       color: $color-white;
     }
 
@@ -89,4 +90,5 @@
 
     &--progress-bar {}
   }
+
 }
