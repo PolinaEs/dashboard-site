@@ -9,13 +9,17 @@
 
   &__task {
     width: 316px;
-    height: 37px;
+    min-height: 37px;
     column-gap: 2px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
 
+    &--sm {
+      width: 300px;
+      min-height: 37px;
+    }
 
     &--img:first-child {
       height: 15px;
@@ -32,8 +36,8 @@
       font-size: 14px;
       line-height: 19px;
       max-width: 225px;
-      overflow: hidden;
       color: $color-white;
+      overflow: hidden;
     }
 
     &--badge {

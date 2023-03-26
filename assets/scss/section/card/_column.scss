@@ -21,4 +21,15 @@
     flex-wrap: wrap;
     align-items: center;
   }
+
+  &__third {
+    max-width: 310px;
+    background-color: transparent;
+    display: flex;
+    flex-grow: 1;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
