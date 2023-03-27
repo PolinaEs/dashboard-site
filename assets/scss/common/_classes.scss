@@ -120,7 +120,7 @@
     line-height: 12px;
     display: flex;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-bottom: 17px;
     color: #FFFFFF;
     width: 16px;
@@ -130,6 +130,10 @@
     border-radius: 100%;
     border: 1px solid #3FAF6F;
     align-items: center;
+
+    &:first-child {
+      margin-left: 0;
+    }
   }
 
   &-white {
@@ -148,6 +152,8 @@
     color: #5E5A5A;
   }
 }
+
+
 
 .progress-bar {
   width: 209px;
@@ -170,4 +176,9 @@
   &-second {
     background-color: rgba(242, 135, 5, 0.15);
   }
+}
+
+.drop {
+  position: relative;
+  display: none;
 }

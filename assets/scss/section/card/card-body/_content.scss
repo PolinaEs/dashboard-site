@@ -15,6 +15,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    padding: 3px 2px;
 
     &--sm {
       width: 300px;
@@ -95,4 +96,22 @@
     &--progress-bar {}
   }
 
+}
+
+#content-red:hover {
+  background-color: rgba(206, 36, 51, 0.5);
+  border-radius: 4px;
+  transition: 1s;
+}
+
+#content-yellow:hover {
+  background-color: rgba(172, 100, 11, 0.5);
+  border-radius: 4px;
+  transition: 1s;
+}
+
+#content-black:hover {
+  background-color: #0c0e12;
+  border-radius: 4px;
+  transition: 1s;
 }

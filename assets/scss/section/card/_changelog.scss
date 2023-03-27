@@ -1,0 +1,166 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.changelog {
+
+  &__btn {
+    position: relative;
+    width: 32px;
+    display: flex;
+    padding: 4px 5px;
+    height: 32px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      border-radius: 20%;
+      border: 1px solid $color-dark;
+      background-color: black;
+    }
+  }
+
+  &__sup {
+    position: relative;
+    margin-left: 20px;
+    margin-top: -33px;
+    margin-bottom: 0;
+  }
+
+  &__content {
+    font-size: 18px;
+
+    @include unlist;
+
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    right: 0px;
+    width: 400px;
+    height: 100vh;
+    padding: $gap;
+    background-color: $color-dark;
+    box-shadow: -10px 0 15px rgba($color-dark, 0.12);
+    overflow: hidden;
+
+    &.active {
+      display: block;
+
+      z-index: 100;
+      position: fixed;
+      right: 0px;
+    }
+  }
+
+  &__subtitle {
+    display: block;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #5E5A5A;
+
+    &.active {
+      color: $color-accent;
+    }
+
+
+  }
+
+  &__contents {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    max-width: 328px;
+    margin-top: 20px;
+  }
+}
+
+.text {
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+
+  &__subheader {
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+    &--name {
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+
+      color: #FFFFFF;
+    }
+
+    &--time {
+
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 13px;
+
+      color: #5E5A5A;
+    }
+  }
+
+  &__task {
+    column-gap: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 270px;
+
+    &--img:first-child {
+      height: 15px;
+    }
+
+    &--img {
+      width: 14px;
+      height: 14px;
+    }
+
+    &--description {
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      max-width: 225px;
+      color: $color-white;
+      overflow: hidden;
+    }
+  }
+
+  &__changes {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 7px;
+
+    &--changed {
+
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+
+      color: #FFFFFF;
+    }
+
+    &--modification {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+
+      color: #FFFFFF;
+    }
+  }
+}
